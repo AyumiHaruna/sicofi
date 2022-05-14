@@ -1,0 +1,261 @@
+html{
+  margin: 10px;
+}
+hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+input, textarea{
+  margin-bottom: 10px;
+}
+
+/*--------------------------------------------------------------------------*/
+
+.fondoTransparencia{
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: #000;
+     z-index: 2;
+     opacity:.5;
+     -moz-opacity: 0.5;
+     filter: alpha(opacity=50);
+}
+.aviso{
+  border: solid 1px #FF5A5A;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #FFD3D3;
+  color: #FF4848;
+  z-index: 9;
+}
+.success{
+  border: solid 1px #1B5E20 !important;
+  background-color: #C8E6C9 !important;
+  color: #1B5E20 !important;
+}
+
+/*--------------------------------------------------------------------------*/
+
+.pantGenerales{
+  position: fixed;
+  top: 20%;
+  background-color: #fff;
+  z-index: 3;
+  border: solid 1px #9E9E9E;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 1.1em;
+  color: #616161;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(117,117,117,1);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(117,117,117,1);
+  box-shadow: 0px 4px 5px 0px rgba(117,117,117,1);
+}
+.indicaciones{
+  font-size: 1.3em;
+  color: #757575;
+}
+.pantGenerales button{
+  border-radius: 3px;
+  color: #B40404;
+}
+.panGenCrear{
+  border-color: #B40404;
+}
+.form{
+  margin-top: 15px;
+}
+.panGenCrear:hover,
+.panGenCrear:focus{
+  background-color: #FFB1B1;
+  border-color: #B40404;
+  color: #B40404;
+}
+.panGenCrear:active{
+  background-color: #B40404 !important;
+  border-color: #B40404 !important;
+  color: #fff !important;
+}
+.botones{
+  margin-top: 10px;
+}
+
+/*--------------------------------------------------------------------------*/
+
+.pantDatosProyecto{
+  width: 100%;
+  background-color: #E0E0E0;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.pantDatosProyecto .bloque{
+  background-color: #fff;
+  padding: 15px;
+}
+.largeSpan{
+  margin-left: 15px;
+  margin-bottom: 10px;
+  color: #9E9E9E;
+  font-weight: bold;
+  font-size: 1.6em;
+}
+.bloqueForm{
+  border:  solid 2px #9E9E9E;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top:20px;
+}
+.bloqueForm legend{
+  margin-top: -35px;
+  float: right;
+  border: solid 1px #9E9E9E;
+  border-radius: 45px;
+  color: #B40404;
+  text-align: center;
+  background-color: #fff;
+  font-size: 0.8em;
+  font-weight: bold;
+  width: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.panDatUpda{
+  padding: 15px;
+  border-radius: 3px;
+  color: #B40404;
+  border-color: #B40404;
+}
+.panDatUpda:hover,
+.panDatUpda:focus{
+  background-color: #FFB1B1;
+  border-color: #B40404;
+  color: #B40404;
+}
+.panDatUpda:active{
+  background-color: #B40404 !important;
+  border-color: #B40404 !important;
+  color: #fff !important;
+}
+.montos{
+  border: solid 2px #bdbdbd;
+  font-size: 0.85em;
+  margin-bottom: 20px;
+}
+.subSpan{
+  font-weight: bold;
+  float: left;
+  color: #B40404;
+}
+
+/*--------------------------------------------------------------------------*/
+
+.divPartidas {
+    border: solid 2px #bdbdbd;
+    border-radius: 3px;
+    height: 100px;
+    overflow-y: scroll;
+    background-color: #eeeeee;
+}
+.divParAdd{
+  padding: 15px;
+  border-color: #B40404;
+  color: #B40404;
+}
+.divParAdd:hover,
+.divParAdd:focus{
+  background-color: #FFB1B1;
+  border-color: #B40404;
+  color: #B40404;
+}
+.divParAdd:active{
+  background-color: #B40404 !important;
+  border-color: #B40404 !important;
+  color: #fff !important;
+}
+.montoTotal{
+  padding: 40px;
+  margin-top: 40px;
+  font-size: 1.2em;
+  background-color: #eeeeee;
+}
+
+/*-------------------------------------------------------------------------*/
+
+.divForPart{
+  position: fixed;
+  top: 20%;
+  background-color: #fff;
+  z-index: 3;
+  border: solid 1px #9E9E9E;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 1.1em;
+  color: #616161;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(117,117,117,1);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(117,117,117,1);
+  box-shadow: 0px 4px 5px 0px rgba(117,117,117,1);
+}
+.divForPartSpan{
+  float: right;
+  border: solid 1px #B40404;
+  border-radius: 45px;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -25px;
+  margin-bottom: 10px;
+  margin-right: 15px;
+  background-color: #FFFFFF;
+  font-size: 0.8em;
+  color: #B40404;
+  z-index: 4;
+}
+.divForPart .form{
+  margin-top: 15px;
+}
+.divForParMontos{
+  border: solid 1px #bdbdbd;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.divForPart button{
+  border-color: #B40404;
+  border-radius: 3px;
+  color: #B40404;
+}
+.divForPart button:hover,
+.divForPart button:focus{
+  background-color: #FFB1B1;
+  border-color: #B40404;
+  color: #B40404;
+}
+
+/*------------------------------------------------------------------*/
+
+.detallePartidas{
+  margin-top: 20px;
+}
+
+/*-------------------------------------------------------------------*/
+
+.edita, .elimina{
+  cursor: pointer;
+}
+.edita:hover, .edita:focus,
+.elimina:hover, .elimina:focus{
+  cursor: pointer;
+  color: #B40404;
+}
+.edita:active, .elimina:active{
+  font-size: 1.5em;
+}

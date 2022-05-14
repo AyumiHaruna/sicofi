@@ -1,0 +1,153 @@
+html{
+  margin: 10px;
+  width:100%;
+  padding: 30px;
+}
+
+/*-------------------------------------------------*/
+
+.fondoTransparencia{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: #000;
+   z-index: 2;
+   opacity:.5;
+   -moz-opacity: 0.5;
+   filter: alpha(opacity=50);
+}
+.aviso{
+  position: fixed;
+  top: 150px;
+  border: solid 1px #FF5A5A;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #FFD3D3;
+  color: #FF4848;
+  z-index: 9;
+}
+.success{
+  border: solid 1px #1B5E20 !important;
+  background-color: #C8E6C9 !important;
+  color: #1B5E20 !important;
+}
+
+/*-------------------------------------------------*/
+
+.control{
+  float: left;
+  top: 300px;
+  position: fixed;
+  border:  solid 2px #9E9E9E;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #E0E0E0;
+  font-size: 1.3em;
+  color: #616161;
+  z-index: 8;
+}
+
+/*-------------------------------------------------*/
+
+.logos{
+  margin-top: 50px;
+}
+#logoCultura{
+  width: 250px;
+}
+#logoInah{
+  width: 200px;
+}
+
+/*-------------------------------------------------*/
+
+.bloque1{
+  margin-top: 60px;
+}
+.bloque1 #span1-1{
+  font-size: 1.2em;
+}
+.bloque1 #span1-2{
+  font-size: 1.5em;
+}
+.bloque1 #span1-3{
+  position: relative;
+  top: 45px;
+  font-size: 1.3em;
+}
+.bloque1 #span1-4{
+  position: relative;
+  top: 90px;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+.divDate{
+  display: inline;
+}
+
+/*-------------------------------------------------*/
+
+.bloque2{
+  position: relative;
+  margin-top: 140px;
+  font-size: 2em;
+}
+
+/*-------------------------------------------------*/
+
+.bloque3{
+  position: relative;
+  margin-top: 120px;
+  font-size: 2em;
+}
+.bloque3 .cMargen{
+  border: solid 1px;
+  padding: 10px;
+  font-weight: bold;
+  height: 300px;
+}
+.bloque3 .cMargen2{
+  border: solid 1px;
+  padding: 10px;
+  font-weight: bold;
+  height: 100px;
+}
+.bloque3 #span3-1,
+.bloque3 #span3-2,
+.bloque3 #span3-3{
+  font-size: 0.7em;
+}
+
+/*-------------------------------------------------*/
+
+button{
+  border: solid 1px;
+  border-radius: 5px;
+  color: #B40404;
+  font-weight: bold;
+}
+button:hover,
+button:focus{
+  background-color: #FFB1B1;
+  border-color: #B40404;
+  color: #B40404;
+}
+button:focus{
+  background-color: #B40404;
+  color: #fff;
+}
+#mod, #can{
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/*-------------------------------------------------*/
+
+@media print {
+ .hidden-print{
+   display: none !important;
+ }
+}

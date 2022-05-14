@@ -1,0 +1,134 @@
+/*-------------------	FIELDSETS ----------------*/
+
+#base{
+	background: #E6E6E6;
+	width: 98%;	
+	font: 16px sans-serif;
+	color:#848484;
+	border: 0px;
+	padding: 10px;
+	margin: auto;
+}
+
+#formulario{
+	background: #fff;
+	border:1px solid #fff;
+	margin: auto;
+	width: 97%;	
+}
+
+legend {
+	padding: 0.2em 0.5em;
+	border:1px solid #610B0B;
+	color: #B40404;
+	/*font-size: 12em;*/
+	font-weight: bold;
+	text-align:center;
+	background-color: white;
+	
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-bottom-radius:10px;	
+ }
+ 
+ /*------------------	FORMS ----------------------*/
+
+select{
+	width: 98%;
+	border: 1px solid #848484;
+    padding: 0.5em;
+    font-size: 15px;
+    line-height: 1.2em;
+    width: 70%;    
+    color: #000;
+    font-family: helvetica, sans-serif;    
+    -webkit-box-shadow: 1px 1px 1px #333;
+    -moz-box-shadow: 1px 1px 1px #333;
+    box-shadow: 1px 1px 1px #333;
+}
+
+.readonly{
+	background: #D8D8D8;
+}
+
+input[type=text],[type=password]{
+	border: 1px solid #848484;
+    padding: 0.5em;
+    font-size: 12px;
+    line-height: 1.2em;
+    width: 90%;    
+    color: #000;
+    font-family: helvetica, sans-serif;    
+    -webkit-box-shadow: 1px 1px 1px #333;
+    -moz-box-shadow: 1px 1px 1px #333;
+    box-shadow: 1px 1px 1px #333;
+}
+
+select{
+	border: 1px solid #848484;
+    padding: 0.5em;
+    font-size: 12px;
+    line-height: 1.2em;
+    width: 90%;    
+    color: #000;
+    font-family: helvetica, sans-serif;    
+    -webkit-box-shadow: 1px 1px 1px #333;
+    -moz-box-shadow: 1px 1px 1px #333;
+    box-shadow: 1px 1px 1px #333;
+}
+
+textarea{
+	border: 1px solid #848484;
+    padding: 0.5em;
+    font-size: 15px;
+    line-height: 1.2em;
+    width: 100%;    
+	min-width: 300px;
+    color: #000;
+    font-family: helvetica, sans-serif;    
+    -webkit-box-shadow: 1px 1px 1px #333;
+    -moz-box-shadow: 1px 1px 1px #333;
+    box-shadow: 1px 1px 1px #333;
+}
+
+input[type=submit]{
+	width: 150px;
+	height: 40px;
+	background: #B40404;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-left: 43%;
+}
+
+input[type=submit]:hover{
+	width: 150px;
+	height: 40px;
+	background: #610B0B;	
+}
+
+
+input[type=button]{
+	width: 150px;
+	height: 40px;
+	background: #B40404;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-left: 43%;
+}
+
+input[type=button]:hover{
+	width: 150px;
+	height: 40px;
+	background: #610B0B;
+} 
+
+
+/*----------------TablaForm-----------------------*/
+.tablaForm{
+	margin: auto;	
+	font: 14px sans-serif;
+	color: #585858;		
+}
+

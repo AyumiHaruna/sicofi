@@ -1,0 +1,138 @@
+/*------ REGLAS DEL SLIDER DE IMAGENES ----*/
+.image-slider-wrapper{
+	overflow: hidden;
+}
+#image_slider{
+	position: relative;
+	overflow: hidden;
+	height: 280px;
+	padding:0;
+	left:0;
+}
+#image_slider li{
+	position:relative;
+	max-width: 100%;
+	float:left;
+	list-style: none;
+	left: 0;
+}
+/*-------------------------------------------*/
+/*---------CONFIGURACION DE CUADROS----------*/
+fieldset{
+	border: 0;
+	font: 16px sans-serif;
+	color:#848484;
+}
+
+#login{
+	background: #E6E6E6;
+	width: 300px;
+	margin-top: 50px;
+	margin-left: 30%;
+	font: 16px sans-serif;
+	color:#848484;
+}
+
+#loged{
+	width:40%;
+	margin-left:25%;
+	margin-top: -40px;
+	text-align: center;
+	font: 16px sans-serif;
+	padding:20px;
+}
+
+a:visited {
+    color: #4B088A;
+}
+
+.container{
+	width:500px;
+	height:320px;
+	padding:5px;
+	border:2px solid gray;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+    background: #A4A4A4;
+	position:relative;
+	z-index:2;
+}
+
+.tablaForm{	
+	margin-top: 30px;
+	font: 16px sans-serif;
+	color:#848484;
+	
+}
+
+input[type=text],[type=password]{
+	border: 1px solid #848484;
+    padding: 0.5em;
+    font-size: 15px;
+    line-height: 1.2em;
+    width: 100%;    
+    color: #0101DF;
+    font-family: helvetica, sans-serif;    
+    -webkit-box-shadow: 1px 1px 1px #333;
+    -moz-box-shadow: 1px 1px 1px #333;
+    box-shadow: 1px 1px 1px #333;
+}
+
+input[type=submit]{
+	width: 150px;
+	height: 40px;
+	background: #B40404;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+input[type=submit]:hover{
+	width: 150px;
+	height: 40px;
+	background: #610B0B;	
+}
+
+input[type=button]{
+	width: 100px;
+	height: 40px;
+	background: #B40404;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+input[type=button]:hover{
+	width: 100px;
+	height: 40px;
+	background: #610B0B;	
+}
+
+
+textarea{
+	border: 1px solid #848484;
+    padding: 0.5em;
+    font-size: 15px;
+    line-height: 1.2em;
+    width: 100%;    
+    color: #0101DF;
+    font-family: helvetica, sans-serif;    
+    -webkit-box-shadow: 1px 1px 1px #333;
+    -moz-box-shadow: 1px 1px 1px #333;
+    box-shadow: 1px 1px 1px #333;
+}
+
+select{
+	width: 98%;
+	border: 1px solid #848484;
+    padding: 0.5em;
+    font-size: 15px;
+    line-height: 1.2em;
+    width: 70%;    
+    color: #000;
+    font-family: helvetica, sans-serif;    
+    -webkit-box-shadow: 1px 1px 1px #333;
+    -moz-box-shadow: 1px 1px 1px #333;
+    box-shadow: 1px 1px 1px #333;
+}

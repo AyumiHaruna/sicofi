@@ -1,0 +1,152 @@
+/*-------------------	FIELDSETS ----------------*/
+
+#base{
+	background: #E6E6E6;
+	width: 98%;	
+	font: 16px sans-serif;
+	color:#848484;
+	border: 0px;
+	padding: 10px;
+	margin: auto;
+}
+
+#formulario{
+	background: #fff;
+	border:1px solid #fff;
+	margin: auto;
+	width: 97%;	
+}
+
+legend {
+	padding: 0.2em 0.5em;
+	border:1px solid #610B0B;
+	color: #B40404;
+	/*font-size: 12em;*/
+	font-weight: bold;
+	text-align:center;
+	background-color: white;
+	
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-bottom-radius:10px;	
+ }
+
+/*------------------	FORMS ----------------------*/
+
+select{
+	width: 98%;
+	border: 1px solid #848484;
+    padding: 0.5em;
+    font-size: 15px;
+    line-height: 1.2em;
+    width: 70%;    
+    color: #000;
+    font-family: helvetica, sans-serif;    
+    -webkit-box-shadow: 1px 1px 1px #333;
+    -moz-box-shadow: 1px 1px 1px #333;
+    box-shadow: 1px 1px 1px #333;
+}
+
+input[type=text],[type=password]{
+	border: 1px solid #848484;
+    padding: 0.5em;
+    font-size: 15px;
+    line-height: 1.2em;
+    width: 100%;    
+    color: #0101DF;
+    font-family: helvetica, sans-serif;    
+    -webkit-box-shadow: 1px 1px 1px #333;
+    -moz-box-shadow: 1px 1px 1px #333;
+    box-shadow: 1px 1px 1px #333;
+}
+
+input[type=submit],[type=button]{
+	width: 150px;
+	height: 40px;
+	background: #B40404;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin: auto;
+}
+
+input[type=submit]:hover{
+	width: 150px;
+	height: 40px;
+	background: #610B0B;	
+}
+
+input[type=button]:hover{
+	width: 150px;
+	height: 40px;
+	background: #610B0B;	
+}
+
+/*----------------TablaForm-----------------------*/
+.tablaForm{
+	margin: auto;	
+	font: 16px sans-serif;
+	color: #585858;
+}
+
+.tablaForm td{
+	min-width: 200px;
+}
+/*--------------TablaReport------------------------*/
+
+.tablaReport {
+	margin:0px;padding:0px;
+	width:100%;
+	box-shadow: 10px 10px 5px #888888;
+	border:1px solid #ffffff;		
+}
+
+.tablaReport table{
+    border-collapse: collapse;    
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}
+
+.tablaReport tr:nth-child(odd){ background-color:#d3d3d3; }
+.tablaReport tr:nth-child(even){ background-color:#ffffff; }
+.tablaReport td{
+	vertical-align:middle;		
+	border:1px solid #ffffff;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:12px;
+	font-size:12px;
+	font-family:Helvetica;
+	font-weight:normal;
+	color:#000000;
+}
+
+.tablaReport tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}
+
+.tablaReport tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}
+
+.tablaReport tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+
+.tablaReport tr:first-child td{
+	background-color:#b5b5b5;
+	border:0px solid #ffffff;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:14px;
+	font-family:Helvetica;
+	font-weight:bold;
+	color:#515151;
+}
+
+.tablaReport tr:first-child:hover td{	
+	background-color:#b5b5b5;
+}
+
+
